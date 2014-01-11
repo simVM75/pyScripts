@@ -1,0 +1,43 @@
+
+
+C:\>cd /d  D:\ ... \Python27\Scripts
+  +
+
+D:\ ... \Python27\Scripts>python django-admin.py startproject newproj
+  +
+
+D:\ ... \Python27\Scripts>cd newproj
+  +
+
+D:\ ... \Python27\Scripts\newproj>python manage.py validate
+  0 errors found
+
+D:\ ... \Python27\Scripts\newproj>python manage.py runserver
+Validating models...
+  0 errors found
+December 30, 2013 - 20:06:11
+Django version 1.6.1, using settings 'newproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[30/Dec/2013 20:06:30] "GET / HTTP/1.1" 200 1757
+  	OK !!!
+http://127.0.0.1:8000/
+  	It worked!
+Of course, you haven't actually done any work yet
+Next, start your first app by running python manage.py startapp [appname]
+  	translate.google #enRU
+на самом деле вы не выполнили никакой работы
+Запустите Первое приложение, выполнив
+D:\ ... \Python27\Scripts\newproj>python manage.py startapp [appname]
+
+  или 
+D:\ ... \>
+D:\ ... \>python d:\ ... \Python27\Scripts\django-admin.py startproject pyProject
+  +
+
+D:\ ... \>dir pyProject\
+  Содержимое папки D:\ ... \pyProject
+  	...
+30.12.2013  20:45               252 manage.py
+30.12.2013  20:45    <DIR>          pyProject
+               1 файлов            252 байт
